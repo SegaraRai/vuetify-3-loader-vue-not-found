@@ -1,0 +1,46 @@
+{
+  "name": "vuetify-3-loader-vue-not-found",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite-ssg build",
+    "dev": "vite --port 8811 --open",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^6.7.96",
+    "@vue/runtime-core": "^3.2.37",
+    "@vue/runtime-dom": "^3.2.37",
+    "@vueuse/head": "^0.7.6",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16",
+    "vuetify": "3.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "dotenv": "^16.0.1",
+    "prettier": "^2.7.1",
+    "rollup": "^2.75.6",
+    "sass": "^1.52.3",
+    "typescript": "^4.7.4",
+    "unplugin-auto-import": "^0.8.8",
+    "unplugin-vue-components": "^0.19.6",
+    "vite": "^2.9.12",
+    "vite-plugin-pages": "^0.24.2",
+    "vite-plugin-vue-layouts": "^0.6.0",
+    "vite-plugin-vuetify": "1.0.0-alpha.12",
+    "vite-plugin-windicss": "^1.8.4",
+    "vite-ssg": "^0.20.1",
+    "vitest": "^0.15.1",
+    "vue-tsc": "^0.37.9",
+    "windicss": "^3.5.4"
+  }
+}
